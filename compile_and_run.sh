@@ -1,10 +1,11 @@
 #!/bin/sh
 
 # Flags
-# compile_and_run -n source_file_name_to_be_compiled.c
-# compile_and_run -c  CLEARS THE SCREEN BEFOREHAND
-# compile_and_run  WITH NO ARGUMENTS AND NO FLAGS
-# 		COMPILES AND RUND main.c
+
+# compile_and_run -n source_file_name_to_be_compiled.c		PROCESSES THE SPECIFIED FILE
+# compile_and_run -c  						CLEARS THE SCREEN BEFOREHAND
+# compile_and_run  						WITH NO ARGUMENTS AND NO FLAGS
+# 		   						COMPILES AND RUND main.c
 
 
 while getopts 'n:c' opt; do
