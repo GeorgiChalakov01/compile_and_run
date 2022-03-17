@@ -6,7 +6,6 @@
 # compile_and_run  WITH NO ARGUMENTS AND NO FLAGS
 # 		COMPILES AND RUND main.c
 
-name=NULL
 
 while getopts 'n:c' opt; do
 	case $opt in
